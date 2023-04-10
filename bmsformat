@@ -6,16 +6,14 @@
 4   uint    pointer.Unknown4
 4   uint    pointer.BoundingBox
 4   uint    pointer.Gates
-4   uint    pointer.Collision                           //0 when not used (characters, items, etc..)
-4   uint    pointer.Unknown8                            //0 in every file :/
-4   uint    pointer.Unknown9                            
-
-4   uint    flags.unkUInt0                                        
-4   uint    flags.unkUInt1                              //Indicates special collision
+4   uint    pointer.Collision
+4   uint    pointer.Unknown8
+4   uint    pointer.Unknown9
+4   uint    flags.unkUInt0
+4   uint    flags.unkUInt1
 4   uint    flags.unkUInt2
-4   uint    flags.Lightmap                              //0 = None
+4   uint    flags.Lightmap
 4   uint    flags.unkUInt3
-
 4   uint    Name.Length
 *   string  Name
 4   uint    Material.Length
