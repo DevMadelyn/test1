@@ -1,24 +1,24 @@
-12  string  Header
-4   uint    pointer.Verticies
-4   uint    pointer.Bones
-4   uint    pointer.Faces
-4   uint    pointer.Unknown3
-4   uint    pointer.Unknown4
-4   uint    pointer.BoundingBox
-4   uint    pointer.Gates
-4   uint    pointer.Collision
-4   uint    pointer.Unknown8
-4   uint    pointer.Unknown9
-4   uint    flags.unkUInt0
-4   uint    flags.unkUInt1
-4   uint    flags.unkUInt2
-4   uint    flags.Lightmap
-4   uint    flags.unkUInt3
-4   uint    Name.Length
-*   string  Name
-4   uint    Material.Length
-*   string  Material
-4   uint    unkUInt4
+12 Header
+4 pointer.Verticies
+4 pointer.Bones
+4 pointer.Faces
+4 pointer.Unknown3
+4 pointer.Unknown4
+4 pointer.BoundingBox
+4 pointer.Gates
+4 pointer.Collision
+4 pointer.Unknown8
+4 pointer.Unknown9
+4 flags.unkUInt0
+4 flags.unkUInt1
+4 flags.unkUInt2
+4 flags.Lightmap
+4 flags.unkUInt3
+4 Name.Length
+* Name
+4 Material.Length
+* Material
+4 unkUInt4
 
 //PointerVertices will get you here
 4   uint vertexCount
